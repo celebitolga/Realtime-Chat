@@ -1,0 +1,31 @@
+.OnlineUsers {
+  border: 1px solid black;
+  padding: 10px;
+
+  &-title {
+    color: white;
+    font-size: 16px;
+  }
+
+  &-users {
+
+    &-user {
+      display: inline-block;
+      padding: 5px 10px;
+      color: greenyellow;
+      border: 1px solid white;
+      border-radius: 8px;
+      background-color: #2979FF;
+      cursor: pointer;
+      text-transform: capitalize;
+
+      &:hover {
+        background-color: #0847b3;
+      }
+
+      & + & {
+        margin-left: 10px;
+      }
+    }
+  }
+}
