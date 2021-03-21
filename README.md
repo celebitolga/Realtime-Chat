@@ -7,6 +7,8 @@
 
 ReactJS
 
+Netlify (Host)
+
 Socket.io-client
 
 React-scroll-to-bottom
@@ -19,6 +21,8 @@ React-emoji
 ### `Back End`
 
 NodeJS
+
+Heroku (Host)
 
 Socket.io
 
